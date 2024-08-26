@@ -23,3 +23,45 @@ a {
 a:visited {
   color: white;
 }
+
+ul.social-icons {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  padding-inline-start: 0;
+}
+
+ul.social-icons li {
+  flex: 0 0 auto;
+}
+
+ul.social-icons li a {
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.social-icons .icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  size: 1rem;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  background-color: white;
+}
+
+.social-icons .icon-text {
+  display: inline;
+}
+
+.social-icons .icon.icon-github-mark-small {
+  mask-image: url(./github-mark-white.svg);
+  -webkit-mask-image: url(./github-mark-white.svg);
+}
+
+.social-icons .icon.icon-discord-mark-small {
+  mask-image: url(./discord-mark-white.svg);
+  -webkit-mask-image: url(./discord-mark-white.svg);
+}
