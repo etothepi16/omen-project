@@ -1,5 +1,9 @@
+:root {
+  --blue: #0b112b;
+}
+
 body {
-  background: black;
+  background: var(--blue);
   box-sizing: border-box;
   color: white;
   font-family: Verdana, Tahoma, sans-serif;
