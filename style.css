@@ -1,0 +1,21 @@
+body {
+  background: black;
+  box-sizing: border-box;
+  color: white;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+  padding: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
